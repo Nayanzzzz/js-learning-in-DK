@@ -17,4 +17,12 @@ console.log(max)
 let sum=arr.reduce((accvalue,currvalue)=>(accvalue+currvalue),0);
 console.log(sum)
 
+//sum of all elements
 
+let a = [1,2,3,4,5,6];
+
+let b = a.reduce((total,currVal)=>{
+    return  total + currVal
+},0)
+
+console.log(b)
